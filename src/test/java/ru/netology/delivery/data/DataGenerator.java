@@ -5,19 +5,9 @@ import io.restassured.filter.log.LogDetail;
 import io.restassured.http.ContentType;
 import io.restassured.specification.RequestSpecification;
 import lombok.Value;
-
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.util.Locale;
-import java.util.Random;
 
 import static io.restassured.RestAssured.given;
-//import static com.codeborne.selenide.$;
-//import static com.codeborne.selenide.open;
-//import static ru.netology.delivery.data.DataGenerator.Registration.getRegisteredUser;
-//import static ru.netology.delivery.data.DataGenerator.Registration.getUser;
-//import static ru.netology.delivery.data.DataGenerator.getRandomLogin;
-//import static ru.netology.delivery.data.DataGenerator.getRandomPassword;
 
 public class DataGenerator {
     private static final RequestSpecification requestSpec = new RequestSpecBuilder()
